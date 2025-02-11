@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -12,7 +12,7 @@
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
 
-  <form class="formulario">
+  <form id="form" class="formulario"> <!-- le agrege in id a form para que fuera mas facil y claro el uso de form-->  
     Nombre <input type="text" name="name" id="name">
     <br />
     Edad <input type="number" name="age" id="age">
@@ -29,12 +29,12 @@
     <input type="submit">
   </form>
 
-  <div>
+  <div id="lista-de-invitados">
     <h2>Lista de invitados</h2>
 
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script> <!-- cambien la ruta del script ya que estaba mal-->
 </body>
 
 </html>
